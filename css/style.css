@@ -12,9 +12,24 @@
 
 #head-of-page {
     background-image: url(../img/pattern.png);
-    background-size: 38%;
-    background-color: rgb(99, 158, 248); 
+    background-size: 31%;
+    background-color: rgb(99, 158, 248);  
     height: 120px; 
     
     
 } 
+
+#Main-title {
+    font-size: 50px;
+}
+
+address {
+    margin-bottom: 15px;
+    color: grey;
+}
+
+.links {
+    text-decoration: none;
+    color: rgb(119, 191, 232);
+    font-family: Arial, Helvetica, sans-serif;
+}

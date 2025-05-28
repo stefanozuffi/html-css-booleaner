@@ -12,15 +12,23 @@
 
 #head-of-page {
     background-image: url(../img/pattern.png);
-    background-size: 31%;
+    background-size: 400px; /* Using percentage makes the image change as the screen dimension changes  */
     background-color: rgb(99, 158, 248);  
     height: 120px; 
     
     
 } 
 
+#title-and-pics {
+     margin-left: 5px;
+}
+
+#title {
+    max-width: 1000px;
+}
+
 #Main-title {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 address {

@@ -1,3 +1,20 @@
-body {
-    background-color: aqua;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+#logo {
+    max-height: 45px; 
+    margin-top: 60px;
+    margin-left: 5px;
+}
+
+#head-of-page {
+    background-image: url(../img/pattern.png);
+    background-size: 38%;
+    background-color: rgb(99, 158, 248); 
+    height: 120px; 
+    
+    
+} 

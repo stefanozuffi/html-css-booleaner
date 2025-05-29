@@ -6,6 +6,7 @@
 
 body {
     margin-left: 10px;
+    max-width: fit-content; 
 }
 
 #logo {
@@ -46,19 +47,55 @@ address {
 
 .links {
     text-decoration: none;
-    color: rgb(119, 191, 232);
-    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(119, 191, 232); 
+    font-family: Arial, Helvetica, sans-serif; 
 }
 
 #pics-footer {
     font-size: 11px;
 }
 
+.content-wrapper {
+    max-width: 1050px; 
+}
+
 #list {
     padding-left: 14px;
 }
 
-.paragr {
-    margin-top: 15px;
-    margin-bottom: 15px;
+.highlighted {
+    background-color: yellow;
 }
+
+
+.paragr {
+    margin-top: 15px; 
+    margin-bottom: 25px; 
+}
+
+/* Table */
+#tableau {
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-bottom: 20px; 
+}
+
+thead  {
+    background-color: rgb(59, 166, 224);
+}
+
+th{
+    text-align: left;
+    color: white;
+}
+
+.first-raw, .third-raw {
+    background-color: rgb(188, 227, 240);
+}
+
+.third {
+   width: 50%; 
+}
+
+
+

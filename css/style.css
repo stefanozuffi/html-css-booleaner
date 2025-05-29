@@ -7,6 +7,7 @@
 body {
     margin-left: 10px;
     max-width: fit-content; 
+    margin-bottom: 20px;
 }
 
 #logo {
@@ -45,8 +46,11 @@ address {
     color: grey;
 }
 
-.links {
+a {
     text-decoration: none;
+}
+
+.links {
     color: rgb(119, 191, 232); 
     font-family: Arial, Helvetica, sans-serif; 
 }
@@ -97,5 +101,32 @@ th{
    width: 50%; 
 }
 
+/* Footer */
+h3 {
+    color: grey;
+    font-size: larger;
+}
 
+#pub-wrapper1 {
+    background-image: url(../img/monitor.jpg);
+    width: 311px;
+    height: 207px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+#pub-wrapper2 {
+    background-image: url(../img/graph.jpg); 
+    width: 311px;
+    height: 207px;
+}
+
+.pubblicity {
+    display: inline-block;
+    color: white; 
+    font-weight: 800;
+    font-size: larger;
+    padding: 10px;
+    
+}
 
